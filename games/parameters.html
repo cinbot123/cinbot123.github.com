@@ -6,13 +6,14 @@
 -->
 <html>
 	<head>
-		<title>Nicolas O | Games</title>
+		<title>Nicolas O | Photography</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <script src="Scripts/swfobject_modified.js"></script>
 	</head>
 	<body>
 
@@ -42,29 +43,41 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Games</h2>
-							<p>I code (or play) neat games on occasion.</p>
+							<h2>Parameters</h2>
+							<p>A click-based RPG.</p>
 						</header>
 						<section class="wrapper style5">
 							<div class="inner">
-
-								<h3>UNDER CONSTRUCTION</h3>
 								
-						  	  	<p>Games are soon to come.</p>
+						  	  	<p>Via Nekogames</p>
 								
-							  	
-								
-
 								<hr />
 								
-								<h3>Not My Games</h3>
-								
-						  	  	<p>Some games that I really like and wanna keep.</p>
-								<a href="games/parameters.html">Parameters</a>
-								<br>
-								<a href="games/parameters2.html">Parameters 2</a>
-
-							</div>
+							  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="760" height="600" id="FlashID" title="Parameters">
+								  <param name="movie" value="../../../~~MY STUFF~~/Programs/Games/Parameters.swf">
+								  <param name="quality" value="high">
+								  <param name="wmode" value="opaque">
+								  <param name="swfversion" value="10.2.0.0">
+								  <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+								  <param name="expressinstall" value="Scripts/expressInstall.swf">
+								  <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+								  <!--[if !IE]>-->
+								  <object type="application/x-shockwave-flash" data="../../../~~MY STUFF~~/Programs/Games/Parameters.swf" width="760" height="600">
+								    <!--<![endif]-->
+								    <param name="quality" value="high">
+								    <param name="wmode" value="opaque">
+								    <param name="swfversion" value="10.2.0.0">
+								    <param name="expressinstall" value="Scripts/expressInstall.swf">
+								    <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+								    <div>
+								      <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+								      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+							        </div>
+								    <!--[if !IE]>-->
+							    </object>
+								  <!--<![endif]-->
+							  </object>
+                            </div>
 						</section>
 					</article>
 
@@ -92,6 +105,8 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
+    <script type="text/javascript">
+swfobject.registerObject("FlashID");
+            </script>
 	</body>
 </html>
